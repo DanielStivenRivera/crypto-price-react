@@ -24,6 +24,7 @@ function App() {
         onChange={e => setSearch(e.target.value)} />
         <TableCoins coins={coins} search={search}/>
       </div>
+      <h3>Powered by Daniel Stiven Rivera</h3>
     </div>
   );
 }
