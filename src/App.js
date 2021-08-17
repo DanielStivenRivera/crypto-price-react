@@ -26,14 +26,6 @@ function App() {
       <div className="row">
         <input type="text" placeholder="search coin" className="form-control bg-dark text-light border-0 mt-4 text-center"
         onChange={e => setSearch(e.target.value)} />
-        <div>
-          <label>Page number</label>
-          <button onClick={e => setPage(e.target.value)}>1</button>
-          <button onClick={e => setPage(e.target.value)}>2</button>
-          <button onClick={e => setPage(e.target.value)}>3</button>
-          <button onClick={e => setPage(e.target.value)}>4</button>
-          <button onClick={e => setPage(e.target.value)}>5</button>
-        </div>
         <TableCoins coins={coins} search={search}/>
       </div>
       <h3>Powered by Daniel Stiven Rivera</h3>
