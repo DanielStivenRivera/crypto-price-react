@@ -29,7 +29,7 @@ function App() {
     getData();
     
   }
- 
+	
   return (
     <div className="container">
       <div className="row">
